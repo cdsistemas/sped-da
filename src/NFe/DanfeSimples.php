@@ -477,7 +477,7 @@ class DanfeSimples extends DaCommon
             $this->pdf->cell(
                 ($c1 * 4),
                 $pequeno ? 5 : 6,
-                "{$this->nfeArray['NFe']['infNFe']['transp']['transporta']['xNome']}",
+                @"{$this->nfeArray['NFe']['infNFe']['transp']['transporta']['xNome']}",
                 1,
                 1,
                 'C',
